@@ -10,6 +10,18 @@
   margin-top: 50px;
 }
 
-/*
-이곳에 코드를 작성하세요.
-*/
+.quote #quote1 {
+	font-size: 96px;
+	position: relative;
+	top: 20px;
+}
+
+.quote #quote2 {
+	font-size: 96px;
+	position: relative;
+	top: 80px;
+}
+
+#wise_saying {
+	margin: 0 15px;
+}
