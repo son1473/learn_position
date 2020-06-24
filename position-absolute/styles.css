@@ -1,12 +1,22 @@
 .env-div {
   width: 500px;
   height: 232px;
+  position: relative;
+  /*가장 가까운 포지셔닝이 된 조상 요소, 기준 점이 된다.*/
 }
 
 .address {
   font-family: cursive;
 }
 
-/*
-이곳에 코드를 작성하세요.
-*/
+.stamp {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+.address {
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+}
