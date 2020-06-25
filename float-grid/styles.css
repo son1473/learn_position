@@ -7,6 +7,7 @@ body {
 
 div {
 	height: 200px;
+	float: left;
 }
 
 #div1 {
@@ -16,27 +17,27 @@ div {
 
 #div2 {
 	background-color: #FFA500;
-	width: 100%;
+	width: 25%;
 }
 
 #div3 {
 	background-color: #FFFF00;
-	width: 100%;
+	width: 50%;
 }
 
 #div4 {
 	background-color: #00B000;
-	width: 100%;
+	width: 25%;
 }
 
 #div5 {
 	background-color: #0000FF;
-	width: 100%;
+	width: 50%;
 }
 
 #div6 {
 	background-color: #4B00B2;
-	width: 100%;
+	width: 50%;
 }
 
 #div7 {
