@@ -1,0 +1,45 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+
+div {
+	height: 200px;
+}
+
+#div1 {
+	background-color: #FF0000;
+	width: 100%;
+}
+
+#div2 {
+	background-color: #FFA500;
+	width: 100%;
+}
+
+#div3 {
+	background-color: #FFFF00;
+	width: 100%;
+}
+
+#div4 {
+	background-color: #00B000;
+	width: 100%;
+}
+
+#div5 {
+	background-color: #0000FF;
+	width: 100%;
+}
+
+#div6 {
+	background-color: #4B00B2;
+	width: 100%;
+}
+
+#div7 {
+	background-color: #B00080;
+	width: 100%;
+}
