@@ -11,6 +11,7 @@
 body {
 	background-color: #F0E8D9;
 	color: #58595B;
+	margin: 0;
 }
 
 /*타이틀*/
@@ -33,12 +34,21 @@ body {
 }
 
 /*내용*/
-.content {
-	margin: 0 auto 50px auto;
+.contents {
+	/*float 사용했을 시 가운데 정렬*/
+	max-width: 630px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contents .content {
+	margin: 0;
+	margin-bottom: 50px;
 	width: 300px;
 	height: 362px;
 	background-color: white;
 	border-radius: 10px;
+	float: left;
 }
 
 #chicken {
@@ -46,6 +56,7 @@ body {
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: 300px 200px;
+	margin-right: 30px;
 } 
 
 #sushi {
@@ -60,6 +71,8 @@ body {
 	background-position: center top;
 	background-repeat: no-repeat;
 	background-size: 300px 200px;
+	margin-right: 30px;
+	clear: left;
 }
 
 #bibimbap {
@@ -75,7 +88,7 @@ body {
 	height: 200px;
 }
 
-.info {
+.content .info {
 	margin: 0;
 	padding: 20px;
 	text-align: center;
@@ -96,4 +109,9 @@ body {
 	text-decoration: none;
 	color: #0000EE;
 	font-weight: bold;
+}
+
+.contents .clearfix {
+	clear: left;
+	/* div contents에 높이를 만들어주기 위해 clear 사용 */ 
 }
