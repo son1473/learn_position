@@ -2,6 +2,7 @@ body {
   margin: 0;
 }
 
+/*네비게이션 바*/
 #navbar {
   padding: 0 20px;
   border-bottom: 1px solid #eee;
@@ -11,13 +12,53 @@ body {
   height: 60px;
 }
 
-#logo {
-  float: left;
-
-  /* 이건 지우세요 */
-  background-color: orange;
+ .helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -5px;
+  /*width: 5px;*/
+  /*background-color: red;*/
 }
 
+#logo {
+  float: left;
+  height: 100%;
+  text-decoration: none;
+  /*background-color: orange;*/
+}
+
+#logo img {
+  vertical-align: middle;
+}
+
+/*top-right navigation bar*/
+#navbar ul {
+  list-style-type: none;
+  height: 100%;
+  float: right;
+  margin: 0;
+}
+
+#navbar li {
+  float: right;
+  height: 100%;
+  text-align: center;
+}
+
+#navbar li:hover {
+  background-color: #eeeeee;
+}
+
+#navbar a {
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+
+/*히어로 헤더*/
 .hero-header {
   background-image: url("../images/hero_image.jpg");
   background-size: cover;
@@ -28,8 +69,9 @@ body {
 }
 
 .hero-header .info {
-  /* 이건 지우세요 */
-  background-color: orange;
+  display: inline-block;
+  vertical-align: middle;
+  /*background-color: orange;*/
 }
 
 .hero-header .info h1 {
